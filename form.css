@@ -1,0 +1,43 @@
+.container{
+    border: 5px dashed orangered;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.result{
+    text-align: center;
+}
+#btSubmit{
+    width: 50%;  
+    background-color: yellow;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+
+ input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+}
+
+
+ input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+
+ input[type="checkbox"]:checked + label:before {
+    background-color: orangered; }
+
+div input[type="checkbox"]:checked + label {
+    border: none;
+}
