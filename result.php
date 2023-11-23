@@ -13,13 +13,13 @@
   <body>
   <div class="result" style="text-align:center">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiA12yd2RmUTc0L5Z52ACzkZuKVc4ko8kdMDcKni2loBDHhzgHGKHkXnZgMxfhOoUwIRk&usqp=CAU" alt="Huan chuong">
-<h1>Thx for Phandy <?php if(isset($_POST["name"])) { echo $_POST["name"]; } ?> !!</h1>
+<h1>Thx for  <?php if(isset($_POST["name"])) { echo $_POST["name"]; } ?> !!</h1>
 <p>We received your application for the <?php if(isset($_POST["Club"])) { echo $_POST["Club"]; } ?></p>
 
 <p>You are a <?php if(isset($_POST["Saturday"])) { echo $_POST["Saturday"]; } ?></p>
 
 <?php
-$printAnd = false; // Biến trung gian để kiểm tra xem có nên in "and" hay không
+$printAnd = false; 
 
 ?>
 

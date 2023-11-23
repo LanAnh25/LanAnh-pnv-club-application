@@ -86,13 +86,13 @@
                     
                     
                 </div>
-                
-            </div><br> 
-        <div class="col text-center ">
+                <div class="col text-center ">
             <div class="Submit">
                 <button id="btSubmit" type="submit" name="sumbit">SUBMIT</button>
             </div>
         </div>
+            </div><br> 
+        
             
         </form>
     </div>
